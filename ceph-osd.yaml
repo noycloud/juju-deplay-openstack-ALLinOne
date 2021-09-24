@@ -1,0 +1,3 @@
+ceph-osd:
+  osd-devices: /dev/sda
+  source: cloud:focal-wallaby

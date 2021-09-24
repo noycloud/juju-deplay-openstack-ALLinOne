@@ -1,0 +1,10 @@
+ovn-chassis:
+  bridge-interface-mappings: br-ex:eno2
+  ovn-bridge-mappings: physnet1:br-ex
+neutron-api:
+  neutron-security-groups: true
+  flat-network-providers: physnet1
+  worker-multiplier: 0.25
+  openstack-origin: cloud:focal-wallaby
+ovn-central:
+  source: cloud:focal-wallaby

@@ -1,0 +1,4 @@
+nova-cloud-controller:
+  network-manager: Neutron
+  worker-multiplier: 0.25
+  openstack-origin: cloud:focal-wallaby

@@ -1,0 +1,4 @@
+ceph-mon:
+  expected-osd-count: 1
+  monitor-count: 1
+  source: cloud:focal-wallaby

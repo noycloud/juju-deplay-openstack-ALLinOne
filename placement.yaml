@@ -1,0 +1,3 @@
+placement:
+  worker-multiplier: 0.25
+  openstack-origin: cloud:focal-wallaby
